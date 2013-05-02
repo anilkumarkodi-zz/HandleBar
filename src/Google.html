@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&sensor=false"></script>
+    <script id="template" type="text/x-handlebars-template">
+        <div>
+          Lat,Long:  {{ LatLong }}
+        </div>
+    </script>
+</head>
+<body><br>
+<center>
+    <div>
+        <b>Enter Your Location:</b><input id="location" type="text" name="location">
+    </div>
+      <br>
+    <div>
+       <input type="button" name="find" value="Find Latitude and Longitude" onclick="getLatLong(document.getElementById('location').value)">
+    </div>
+      <br>
+    <br>
+        <div id="content"></div>
+            <script type="text/javascript" src="/home/anil/HandlerBar/HandleBar/lib/handlebars.js"></script>
+            <script type="text/javascript" src="/home/anil/HandlerBar/HandleBar/src/script/showLatLong.js"></script>
+</center>
+</body>
+</html>
+
