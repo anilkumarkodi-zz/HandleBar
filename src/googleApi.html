@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Using Javascript's Geolocation API</title>
+
+    <script type="text/javascript" src="http://j.maxmind.com/app/geoip.js"></script>
+</head>
+<body>
+<div id="mapContainer"></div>
+<input type="text" name="location">
+<input type="button" name="find" value="Find Latitude and Longitude" onclick="fun()">
+
+<script type="text/javascript">
+ function fun(){
+    var lat = geoip_latitude();
+    var long = geoip_longitude();
+    document.write("Latitude: "+lat+"</br>Longitude: "+long);
+    }
+</script>
+</body>
+</html> 
