@@ -10,5 +10,4 @@ var geocoder = new google.maps.Geocoder();
             document.getElementById("content").innerHTML = divContents;
          }
     });
-
 }

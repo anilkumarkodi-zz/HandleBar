@@ -25,7 +25,6 @@ function getDistance(fromAddress,toAddress){
     document.getElementById("content").innerHTML = divContents;
     },5000);
 }
-
 function calcDistance(p1, p2){
     return (google.maps.geometry.spherical.computeDistanceBetween(p1, p2)/1000).toFixed(2);
 }
