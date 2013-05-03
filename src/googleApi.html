@@ -1,40 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Using Javascript's Geolocation API</title>
-
-    <script type="text/javascript" src="http://j.maxmind.com/app/geoip.js"></script>
+    <script type="text/javascript" src="/home/anil/HandlerBar/HandleBar/src/script/practice.js"> </script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false&libraries=geometry"></script>
 </head>
 <body>
-<div id="mapContainer"></div>
-<input type="text" name="location">
-<input type="button" name="find" value="Find Latitude and Longitude" onclick="fun()">
-
-<script type="text/javascript">
- function fun(){
-    var lat = geoip_latitude();
-    var long = geoip_longitude();
-    document.write("Latitude: "+lat+"</br>Longitude: "+long);
-    }
-</script>
+<br>
+<input id="dist" type="button" value="Get Distance" onclick="fun()">
 </body>
 </html>
-
-var map = new GMap2(document.getElementById("map_canvas"));
-var geocoder = new GClientGeocoder();
-geocoder.getLatLng(
-address,
-function(point) {
-if (!point) {
-alert(address + " not found");
-} else {
-map.setCenter(point, 13);
-var marker = new GMarker(point);
-map.addOverlay(marker);
-
-// As this is user-generated content, we display it as
-// text rather than HTML to reduce XSS vulnerabilities.
-marker.openInfoWindow(document.createTextNode(address));
-}
-}
-);

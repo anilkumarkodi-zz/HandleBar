@@ -2,21 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75fa6437-fac6-4275-a9d8-5828d8105ebf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Google.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/script/showLatLong.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/practice.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoogleLatLng.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoogleLength.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/script/showLength.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Google.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/googleApi.html" afterPath="$PROJECT_DIR$/src/googleApi.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/script/showLatLong.js" afterPath="$PROJECT_DIR$/src/script/showLatLong.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="HandleBar.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="75fa6437-fac6-4275-a9d8-5828d8105ebf" time="1367474229405" ignored="false" />
+    <file path="/Dummy.txt" changelist="75fa6437-fac6-4275-a9d8-5828d8105ebf" time="1367556473946" ignored="false" />
     <file path="/sample.html" changelist="75fa6437-fac6-4275-a9d8-5828d8105ebf" time="1367491485665" ignored="false" />
     <file path="/tamplaet.js" changelist="75fa6437-fac6-4275-a9d8-5828d8105ebf" time="1367491727709" ignored="false" />
-    <file path="/Google.html" changelist="75fa6437-fac6-4275-a9d8-5828d8105ebf" time="1367499257297" ignored="false" />
-    <file path="/showAddress.js" changelist="75fa6437-fac6-4275-a9d8-5828d8105ebf" time="1367501469555" ignored="false" />
+    <file path="/Google.html" changelist="75fa6437-fac6-4275-a9d8-5828d8105ebf" time="1367507870012" ignored="false" />
+    <file path="/showAddress.js" changelist="75fa6437-fac6-4275-a9d8-5828d8105ebf" time="1367505062982" ignored="false" />
+    <file path="/GoogleLength.html" changelist="75fa6437-fac6-4275-a9d8-5828d8105ebf" time="1367580586990" ignored="false" />
+    <file path="/googleApi.html" changelist="75fa6437-fac6-4275-a9d8-5828d8105ebf" time="1367575010243" ignored="false" />
+    <file path="/dummy.xml" changelist="75fa6437-fac6-4275-a9d8-5828d8105ebf" time="1367558289973" ignored="false" />
+    <file path="/showLatLong.js" changelist="75fa6437-fac6-4275-a9d8-5828d8105ebf" time="1367558696889" ignored="false" />
+    <file path="/GoogleLatLng.html" changelist="75fa6437-fac6-4275-a9d8-5828d8105ebf" time="1367558785481" ignored="false" />
+    <file path="/showLength.js" changelist="75fa6437-fac6-4275-a9d8-5828d8105ebf" time="1367571697570" ignored="false" />
+    <file path="/practice.js" changelist="75fa6437-fac6-4275-a9d8-5828d8105ebf" time="1367579510900" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +31,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -77,10 +89,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Google.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Google.html">
+      <file leaf-file-name="GoogleLength.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GoogleLength.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="8" selection-start="632" selection-end="632" vertical-scroll-proportion="0.38551402">
+            <state line="13" column="39" selection-start="606" selection-end="606" vertical-scroll-proportion="-8.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="showLength.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/script/showLength.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="1" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,7 +110,16 @@
       <file leaf-file-name="showLatLong.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/script/showLatLong.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="63" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+            <state line="5" column="2" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoogleLatLng.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GoogleLatLng.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="7" selection-start="450" selection-end="450" vertical-scroll-proportion="0.2542373">
               <folding />
             </state>
           </provider>
@@ -117,19 +147,23 @@
         <option value="$PROJECT_DIR$/src/script/tamplet.js" />
         <option value="$PROJECT_DIR$/src/script/tamplaet.js" />
         <option value="$PROJECT_DIR$/src/sample.html" />
-        <option value="$PROJECT_DIR$/src/googleApi.html" />
         <option value="$PROJECT_DIR$/src/script/Google.html" />
         <option value="$PROJECT_DIR$/src/script/showAddress.js" />
-        <option value="$PROJECT_DIR$/src/script/showLatLong.js" />
         <option value="$PROJECT_DIR$/src/Google.html" />
+        <option value="$PROJECT_DIR$/src/GoogleLatLng.html" />
+        <option value="$PROJECT_DIR$/src/googleApi.html" />
+        <option value="$PROJECT_DIR$/src/script/practice.js" />
+        <option value="$PROJECT_DIR$/src/script/showLength.js" />
+        <option value="$PROJECT_DIR$/src/GoogleLength.html" />
+        <option value="$PROJECT_DIR$/src/script/showLatLong.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
     <option name="y" value="27" />
-    <option name="width" value="1922" />
-    <option name="height" value="1054" />
+    <option name="width" value="1026" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -241,11 +275,12 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/script" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -261,6 +296,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -288,19 +336,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -356,28 +391,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="27" width="1922" height="1054" extended-state="6" />
+    <frame x="-1" y="27" width="1026" height="742" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924226" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290735" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24948876" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16435432" sideWeight="0.6709265" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20654397" sideWeight="0.95791245" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -440,45 +475,82 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/handlebars.js">
+    <entry file="file://$PROJECT_DIR$/src/GoogleLatLng.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="73" selection-start="6185" selection-end="6186" vertical-scroll-proportion="0.33254156">
+        <state line="5" column="3" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/googleApi.html">
+    <entry file="file://$PROJECT_DIR$/src/GoogleLength.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="30" selection-start="706" selection-end="706" vertical-scroll-proportion="0.47313085">
+        <state line="10" column="74" selection-start="259" selection-end="259" vertical-scroll-proportion="0.0">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/handlebars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="73" selection-start="6185" selection-end="6186" vertical-scroll-proportion="0.33254156" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sample.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="99" selection-start="244" selection-end="341" vertical-scroll-proportion="0.21028037">
+        <state line="15" column="12" selection-start="458" selection-end="458" vertical-scroll-proportion="-9.375">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/script/tamplaet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="43" selection-start="698" selection-end="698" vertical-scroll-proportion="0.2215909">
+        <state line="13" column="43" selection-start="698" selection-end="698" vertical-scroll-proportion="0.34330985">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/practice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="6" selection-start="2493" selection-end="2493" vertical-scroll-proportion="1.3513514">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/googleApi.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="28" selection-start="280" selection-end="280" vertical-scroll-proportion="0.2259887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GoogleLength.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="39" selection-start="606" selection-end="606" vertical-scroll-proportion="-8.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/script/showLength.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="1" selection-start="1139" selection-end="1139" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/script/showLatLong.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="63" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+        <state line="5" column="2" selection-start="205" selection-end="205" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Google.html">
+    <entry file="file://$PROJECT_DIR$/src/GoogleLatLng.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="8" selection-start="632" selection-end="632" vertical-scroll-proportion="0.38551402">
+        <state line="9" column="7" selection-start="450" selection-end="450" vertical-scroll-proportion="0.2542373">
           <folding />
         </state>
       </provider>
